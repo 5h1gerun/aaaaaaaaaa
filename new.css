@@ -69,8 +69,7 @@
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
-/* 右側のフレンドリストとアクティブ欄を完全透明化 */
-.theme-dark .layer__3dba7 .appMount__51fd7 .tabBody__133bf {
+.theme-dark .tabBody__133bf * {
   background-color: rgba(0,0,0,0) !important;
   background: none !important;
   backdrop-filter: none !important;
