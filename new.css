@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+/* ========== 基本変数 ========== */
+:root,
+.visual-refresh,
+.visual-refresh.theme-dark {
+  --highlight: rgb(var(--rgb-highlight));
+  --rgb-background: 0, 9, 0;
+  --background: rgba(var(--rgb-background), 0) !important; /* 透明化済み */
+  --text: rgb(var(--rgb-text));
+  --rgb-close-button: 212, 18, 39;
+  --close-button: rgb(var(--rgb-close-button));
+  --rgb-online-color: 57, 255, 20;
+  --online-color: rgb(var(--rgb-online-color));
+  --rgb-afk-color: 255, 255, 51;
+  --afk-color: rgb(var(--rgb-afk-color));
+  --rgb-dnd-color: 255, 0, 0;
+  --dnd-color: rgb(var(--rgb-dnd-color));
+  --rgb-streaming-color: 188, 19, 254;
+  --streaming-color: rgb(var(--rgb-streaming-color));
+  --transition-time: 0.3s;
+
+  /* 背景画像や効果 */
+  --background-image: url(https://shigerun.duckdns.org/download/6) !important;
+  --background-position: center;
+  --background-size: cover;
+  --background-blur: 5px;
+  --background-brightness: 100%;
+
+  /* タイトル設定 */
+  --show-original-title: 0;
+  --show-custom-title: 1;
+  --custom-title-text: "ROBCO Industries (tm)";
+  --custom-title-font-size: 16px;
+  --custom-title-font-weight: bold;
+  --custom-title-margin-top: 0px;
+  --custom-title-margin-left: 0px;
+
+  /* 変数チェーンを一括で透明化 */
+  --background-primary: var(--background) !important;
+  --background-secondary: var(--background) !important;
+  --background-tertiary: var(--background) !important;
+  --background-floating: var(--background) !important;
+  --background-accent: var(--background) !important;
+  --background-nested-floating: var(--background) !important;
+  --modal-background: var(--background) !important;
+  --modal-footer-background: var(--background) !important;
+  --chat-background: var(--background) !important;
+  --input-background: var(--background) !important;
+  --channeltextarea-background: var(--background) !important;
+}
+
+/* ========== 透明化の強化 ========== */
+.theme-dark .peopleColumn__133bf,
+.theme-dark .nowPlayingColumn__133bf,
+.theme-dark .container__133bf,
+.theme-dark .container__7d20c,
+.theme-dark .panels_c48ade,
+.theme-dark .outer_c0bea0:not(.custom-user-profile),
+.theme-dark .scrollableContainer__74017,
+.theme-dark .autocompleteInner__13533 {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* ========== 追加の要素に対応 ========== */
+.theme-dark .appMount__51fd7 .peopleColumn__133bf,
+.theme-dark .appMount__51fd7 .container__7d20c,
+.theme-dark .appMount__51fd7 .panels_c48ade {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* ========== ここに必要に応じて背景色指定の追加・調整 ========== */
+/* 例えば透過度を調整したい場合は rgba(0,0,0,0.5) にするなど */
+
