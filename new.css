@@ -70,12 +70,10 @@
 }
 
 /* 右側のフレンドリストとアクティブ欄を完全透明化 */
-.theme-dark .peopleColumn__133bf,
-.theme-dark .nowPlayingColumn__133bf,
-.theme-dark .appMount__51fd7 .peopleColumn__133bf,
-.theme-dark .appMount__51fd7 .nowPlayingColumn__133bf {
+.theme-dark .tabBody__133bf {
   background-color: rgba(0,0,0,0) !important;
-  background: rgba(0,0,0,0) !important;
+  background: none !important;
   backdrop-filter: none !important;
 }
+
 
