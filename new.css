@@ -69,6 +69,13 @@
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
-/* ========== ここに必要に応じて背景色指定の追加・調整 ========== */
-/* 例えば透過度を調整したい場合は rgba(0,0,0,0.5) にするなど */
+/* 右側のフレンドリストとアクティブ欄を完全透明化 */
+.theme-dark .peopleColumn__133bf,
+.theme-dark .nowPlayingColumn__133bf,
+.theme-dark .appMount__51fd7 .peopleColumn__133bf,
+.theme-dark .appMount__51fd7 .nowPlayingColumn__133bf {
+  background-color: rgba(0,0,0,0) !important;
+  background: rgba(0,0,0,0) !important;
+  backdrop-filter: none !important;
+}
 
