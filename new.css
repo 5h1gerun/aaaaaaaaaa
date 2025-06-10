@@ -67,6 +67,12 @@
   backdrop-filter: blur(5px) !important;
 }
 
+.theme-dark .reactionCount__23977 {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  backdrop-filter: blur(5px) !important;
+}
+
+
 /* ========== 追加の要素に対応 ========== */
 /* .theme-dark .appMount__51fd7 .peopleColumn__133bf,
 .theme-dark .appMount__51fd7 .container__7d20c,
