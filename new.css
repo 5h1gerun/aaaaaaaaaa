@@ -68,9 +68,7 @@
 }
 
 .theme-dark .reactionCount__23977 {
-  background-color: rgba(0, 0, 0, 0.7) !important; /* 半透明黒 */
-  border-radius: 4px; /* 数字を包む丸み（好みで調整） */
-  padding: 2px 4px; /* 少し余白を追加（好みで調整） */
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 
 /* ========== 追加の要素に対応 ========== */
